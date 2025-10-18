@@ -1,5 +1,3 @@
-Absolutely, Thiruppathi — here’s the updated `README.md` with a dedicated section for exporting Azure credentials using a `.env.sh` script. This makes your project more reproducible and beginner-friendly while keeping secrets out of version control.
-
 ---
 
 ```markdown

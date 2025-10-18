@@ -135,4 +135,3 @@ Built by [Thiruppathi](https://github.com/thiru2612) — aspiring cloud-native e
 ```
 
 ---
-— you're already documenting like a production-grade cloud architect 💪

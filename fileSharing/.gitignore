@@ -1,0 +1,55 @@
+set.ps1
+user.tf
+
+# Terraform state and secrets
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+override.tf
+override.tf.json
+terraform.tfvars
+*.auto.tfvars
+*.backup
+
+# Ignore Terraform local state and provider binaries
+.terraform/
+*.tfstate
+*.tfstate.*
+*.backup
+
+# Azure CLI credentials
+.azure/
+*.log
+
+# Environment files
+.env
+.env.*
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Python virtualenv (if used)
+venv/
+__pycache__/
+*.pyc
+
+# Node modules (if using JS tooling)
+node_modules/
+
+# Secrets and keys
+*.pem
+*.key
+*.crt
+*.pfx
+*.jks
+*.json
+
+# SAS token dumps or blob URLs
+sas_token.txt
+blob_urls.txt

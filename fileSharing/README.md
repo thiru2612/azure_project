@@ -1,5 +1,3 @@
----
-
 ```markdown
 # 🔐 Secure File Sharing System for a Small Team
 

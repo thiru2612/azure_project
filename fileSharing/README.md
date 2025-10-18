@@ -45,7 +45,7 @@ az ad sp create-for-rbac --name "TerraformSP" --role="Owner" --scopes="/subscrip
 Save the output securely — you'll need the appId, password, and tenant.
 
 
-🔹 Step 2: Assign Directory Role to Admin
+### 🔹 Step 2: Assign Directory Role to Admin
 To manage users and groups via Terraform, assign the User Administrator role to your SP or admin user:
 
 
@@ -75,6 +75,19 @@ source .env.sh
 ```
 ✅ This allows Terraform to authenticate securely using environment variables.
 
+### 🔹 Step 3: Verify the infrastructure we are going to deploy using terraform command:
+
+```bash
+terraform plan
+```
+
+### 🔹 Step 4: Deploy infrastructure using terraform command:
+
+```bash
+terraform apply
+```
+
+
 📦 Uploading Files to Blob Storage
 After deploying the infrastructure, upload a file to the dev container:
 
@@ -84,8 +97,9 @@ az storage blob upload \
   --container-name devcontainer \
   --auth-mode login \
   --name devfile \
-  --file "C:\Users\ASUS\Desktop\azure\azure_project\dev.txt"
+  --file <PATH-TO-YOUR-FILE>
 ```
+
 ✅ Verify Upload
 
 ```bash
@@ -126,4 +140,4 @@ Perfect for small teams, interns, or cloud beginners building real-world Azure s
 ---
 
 🙌 Author
-Built by Thiruppathi — aspiring cloud-native engineer focused on secure, scalable infrastructure.
+Built by [Thiruppathi](https://github.com/thiru2612) — aspiring cloud-native engineer focused on secure, scalable infrastructure.

@@ -34,6 +34,7 @@ This project replaces insecure sharing with a **secure, scalable, and cost-optim
 | `roleAssignment.tf` | Assigns RBAC roles to teams for containers |
 
 ---
+![Architecture Overview](../fileSharing/azure-file-sharing.jpg)
 
 ## 🚀 Setup Instructions
 
